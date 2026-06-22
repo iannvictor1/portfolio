@@ -1,0 +1,13 @@
+# Os projetos completos permanecem apenas no computador.
+bonificacao_system/
+pesoctrl/
+recibos_sistema/
+RH-Control/
+sistema_produtos/
+
+# Arquivos locais e temporários
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/

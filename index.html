@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfólio de Iann Victor — sistemas web e automações desenvolvidos durante o estágio." />
+    <meta name="theme-color" content="#10120f" />
+    <title>Iann Victor — Portfólio</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#projetos">Ir para os projetos</a>
+
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Página inicial de Iann Victor">
+        <span>IV</span>
+        <strong>Iann Victor</strong>
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="header-cta" href="mailto:iannvictor0209@gmail.com">Vamos conversar <span aria-hidden="true">↗</span></a>
+      <button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero section" id="inicio">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><i></i> Desenvolvimento & automação</div>
+          <h1>Transformo processos <em>reais</em> em sistemas que funcionam.</h1>
+          <p>Sou Iann Victor, desenvolvedor full stack. Durante meu estágio, crio soluções para RH, logística, operações e gestão — da ideia à implantação.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projetos">Explorar projetos <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="https://github.com/iannvictor1" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="hero-aside reveal delay-1" aria-label="Resumo profissional">
+          <div class="availability"><span></span> Em constante evolução</div>
+          <div class="hero-number">05</div>
+          <p>sistemas criados para resolver desafios do dia a dia.</p>
+          <div class="stack-line">
+            <span>React</span><span>Python</span><span>FastAPI</span><span>PostgreSQL</span>
+          </div>
+        </div>
+        <div class="scroll-note" aria-hidden="true">ROLE PARA DESCOBRIR <span>↓</span></div>
+      </section>
+
+      <section class="statement section" id="sobre">
+        <div class="section-kicker reveal"><span>01</span> Sobre mim</div>
+        <div class="statement-content reveal">
+          <h2>Menos tarefa repetitiva.<br /><em>Mais tempo para decidir.</em></h2>
+          <div class="statement-text">
+            <p>Gosto de entender o processo antes de escrever código. Converso com quem usa, encontro os gargalos e construo ferramentas simples de operar.</p>
+            <p>Trabalho de ponta a ponta: interface, API, banco de dados, automações, relatórios e preparação do ambiente de produção.</p>
+          </div>
+        </div>
+        <div class="capabilities reveal">
+          <div><span>01</span><strong>Aplicações web</strong><small>Interfaces responsivas e intuitivas</small></div>
+          <div><span>02</span><strong>APIs & dados</strong><small>Regras de negócio e persistência</small></div>
+          <div><span>03</span><strong>Automação</strong><small>Processos, arquivos e relatórios</small></div>
+        </div>
+      </section>
+
+      <section class="projects section" id="projetos">
+        <div class="projects-heading reveal">
+          <div class="section-kicker"><span>02</span> Projetos selecionados</div>
+          <h2>Construído para o<br /><em>mundo real.</em></h2>
+          <p>Uma seleção de sistemas que desenvolvi e continuo aprimorando durante meu estágio.</p>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card project-rh reveal" data-project="rh">
+            <div class="project-info">
+              <div class="project-meta"><span>01</span><span>Gestão de pessoas</span><span class="status">Em evolução</span></div>
+              <h3>RH Control</h3>
+              <p>Plataforma centralizada para acompanhar colaboradores, ocorrências, ASOs e indicadores estratégicos de RH.</p>
+              <div class="tags"><span>React</span><span>FastAPI</span><span>PostgreSQL</span></div>
+              <button class="project-link" type="button">Ver detalhes <span aria-hidden="true">↗</span></button>
+            </div>
+            <div class="project-visual visual-rh" aria-hidden="true">
+              <div class="mock-window">
+                <div class="mock-sidebar"><b>RH</b><i></i><i></i><i></i><i></i></div>
+                <div class="mock-main">
+                  <div class="mock-top"><span>Visão geral</span><i></i></div>
+                  <div class="metric-row"><b>128<small>Colaboradores</small></b><b>94%<small>ASOs em dia</small></b><b>12<small>Alertas</small></b></div>
+                  <div class="chart"><span style="height:35%"></span><span style="height:58%"></span><span style="height:48%"></span><span style="height:82%"></span><span style="height:66%"></span><span style="height:92%"></span></div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card project-bonus reveal" data-project="bonus">
+            <div class="project-info">
+              <div class="project-meta"><span>02</span><span>Performance</span><span class="status done">Em uso</span></div>
+              <h3>Bonificação</h3>
+              <p>Gestão de desempenho e bonificações com regras configuráveis, lançamentos semanais e fechamento mensal.</p>
+              <div class="tags"><span>React</span><span>FastAPI</span><span>SQLAlchemy</span></div>
+              <button class="project-link" type="button">Ver detalhes <span aria-hidden="true">↗</span></button>
+            </div>
+            <div class="project-visual visual-bonus" aria-hidden="true">
+              <div class="bonus-panel"><div class="bonus-head"><span>Performance</span><b>Junho</b></div><div class="bonus-total"><small>Total previsto</small><strong>R$ 18.420</strong><em>+12,4%</em></div><div class="people"><i>IV</i><span><b>Equipe de logística</b><small>Meta mensal</small></span><strong>87%</strong></div><div class="progress"><i></i></div></div>
+            </div>
+          </article>
+
+          <article class="project-card project-peso reveal" data-project="peso">
+            <div class="project-info">
+              <div class="project-meta"><span>03</span><span>Automação industrial</span><span class="status done">Em uso</span></div>
+              <h3>PesoCtrl</h3>
+              <p>Automação de pesagens com monitoramento de impressoras, filas seguras e registros em tempo real.</p>
+              <div class="tags"><span>Python</span><span>Streamlit</span><span>Watchdog</span></div>
+              <button class="project-link" type="button">Ver detalhes <span aria-hidden="true">↗</span></button>
+            </div>
+            <div class="project-visual visual-peso" aria-hidden="true">
+              <div class="scale-display"><small>PESO ATUAL</small><strong>248,75</strong><span>kg</span><div class="scale-status"><i></i> Impressora 01 conectada</div></div>
+              <div class="pallet"><span>Pallet #0284</span><b>32 etiquetas processadas</b><i><em></em></i></div>
+            </div>
+          </article>
+
+          <article class="project-card project-produtos reveal" data-project="produtos">
+            <div class="project-info">
+              <div class="project-meta"><span>04</span><span>Catálogo & vendas</span><span class="status done">Em uso</span></div>
+              <h3>Catálogo de Produtos</h3>
+              <p>Consulta visual de produtos e geração automática de planilhas comerciais com fotos e fichas individuais.</p>
+              <div class="tags"><span>React</span><span>FastAPI</span><span>OpenPyXL</span></div>
+              <button class="project-link" type="button">Ver detalhes <span aria-hidden="true">↗</span></button>
+            </div>
+            <div class="project-visual visual-products" aria-hidden="true">
+              <div class="catalog-search">⌕&nbsp;&nbsp; Buscar por código ou produto...</div>
+              <div class="catalog-grid"><div><i>🥩</i><span><b>Produto 292</b><small>Selecionado</small></span></div><div><i>📦</i><span><b>Produto 1620</b><small>Disponível</small></span></div><div><i>🏷️</i><span><b>Produto 2451</b><small>Disponível</small></span></div></div>
+            </div>
+          </article>
+
+          <article class="project-card project-recibos reveal" data-project="recibos">
+            <div class="project-info">
+              <div class="project-meta"><span>05</span><span>Financeiro</span><span class="status">Em evolução</span></div>
+              <h3>Gestor de Recibos</h3>
+              <p>Criação, consulta e envio de recibos digitais com histórico, filtros e documentos prontos para compartilhar.</p>
+              <div class="tags"><span>React</span><span>Django REST</span><span>PDF</span></div>
+              <button class="project-link" type="button">Ver detalhes <span aria-hidden="true">↗</span></button>
+            </div>
+            <div class="project-visual visual-receipt" aria-hidden="true">
+              <div class="receipt-paper"><div><small>RECIBO</small><b>Nº 0048</b></div><strong>R$ 2.480,00</strong><i></i><p>Recebemos de</p><b>Cliente / Empresa</b><i></i><span>Documento gerado digitalmente</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery section" id="galeria">
+        <div class="gallery-heading reveal">
+          <div class="section-kicker"><span>03</span> Projetos em tela</div>
+          <h2>Interface de verdade.<br /><em>Impacto visível.</em></h2>
+          <p>Uma visão por dentro das ferramentas — interfaces criadas a partir das rotinas e necessidades de quem usa.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <button class="gallery-item gallery-wide reveal" type="button" data-image="rhcontroll.png" data-title="RH Control" data-caption="Dashboard e indicadores operacionais de RH">
+            <img src="rhcontroll.png" alt="Dashboard do sistema RH Control" loading="lazy" />
+            <span class="gallery-overlay"><small>01 — Gestão de pessoas</small><strong>RH Control</strong><i>Ampliar ↗</i></span>
+          </button>
+          <button class="gallery-item reveal" type="button" data-image="bonificação.png" data-title="Bonificação Performance" data-caption="Dashboard mensal de desempenho e bonificações">
+            <img src="bonificação.png" alt="Dashboard do sistema de Bonificação Performance" loading="lazy" />
+            <span class="gallery-overlay"><small>02 — Performance</small><strong>Bonificação</strong><i>Ampliar ↗</i></span>
+          </button>
+          <button class="gallery-item reveal" type="button" data-image="pesoctrlimagem.png" data-title="PesoCtrl" data-caption="Controle operacional de pesagens, pallets e impressoras">
+            <img src="pesoctrlimagem.png" alt="Painel operacional do PesoCtrl" loading="lazy" />
+            <span class="gallery-overlay"><small>03 — Automação industrial</small><strong>PesoCtrl</strong><i>Ampliar ↗</i></span>
+          </button>
+          <button class="gallery-item reveal" type="button" data-image="sistemaprodutos.png" data-title="Catálogo de Produtos" data-caption="Catálogo visual e gerador de planilhas com fotos">
+            <img src="sistemaprodutos.png" alt="Catálogo visual do Sistema de Produtos" loading="lazy" />
+            <span class="gallery-overlay"><small>04 — Catálogo & vendas</small><strong>Sistema de Produtos</strong><i>Ampliar ↗</i></span>
+          </button>
+          <button class="gallery-item reveal" type="button" data-image="recibos.png" data-title="Gestor de Recibos" data-caption="Formulário para geração padronizada de recibos digitais">
+            <img src="recibos.png" alt="Tela de geração do Gestor de Recibos" loading="lazy" />
+            <span class="gallery-overlay"><small>05 — Financeiro</small><strong>Gestor de Recibos</strong><i>Ampliar ↗</i></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="process section">
+        <div class="section-kicker reveal"><span>04</span> Como eu trabalho</div>
+        <div class="process-grid">
+          <div class="process-title reveal"><h2>Do problema à<br /><em>solução em uso.</em></h2></div>
+          <ol class="process-steps reveal">
+            <li><span>01</span><div><strong>Entender</strong><p>Mapeio a rotina, as pessoas e o verdadeiro gargalo.</p></div></li>
+            <li><span>02</span><div><strong>Construir</strong><p>Transformo o fluxo em uma experiência simples e confiável.</p></div></li>
+            <li><span>03</span><div><strong>Entregar & evoluir</strong><p>Implanto, acompanho o uso e melhoro com feedback real.</p></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="contact section" id="contato">
+        <div class="contact-mark reveal">IV</div>
+        <div class="contact-content reveal">
+          <div class="section-kicker"><span>05</span> Contato</div>
+          <h2>Tem um desafio?<br /><em>Vamos construir.</em></h2>
+          <a class="contact-email" href="mailto:iannvictor0209@gmail.com">iannvictor0209@gmail.com <span>↗</span></a>
+          <div class="socials">
+            <a href="https://github.com/iannvictor1" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="mailto:iannvictor0209@gmail.com">E-mail ↗</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>© <span id="year"></span> Iann Victor</span>
+      <span>Desenvolvido com intenção e curiosidade.</span>
+      <a href="#inicio">Voltar ao topo ↑</a>
+    </footer>
+
+    <dialog class="project-modal" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" aria-label="Fechar">×</button>
+      <span class="modal-number"></span>
+      <p class="modal-category"></p>
+      <h2 id="modal-title"></h2>
+      <p class="modal-description"></p>
+      <div class="modal-grid">
+        <div><small>O desafio</small><p class="modal-challenge"></p></div>
+        <div><small>A solução</small><p class="modal-solution"></p></div>
+      </div>
+      <div class="modal-footer">
+        <div class="modal-tags"></div>
+        <a class="modal-github" target="_blank" rel="noreferrer">Ver código no GitHub ↗</a>
+      </div>
+    </dialog>
+
+    <dialog class="lightbox" aria-labelledby="lightbox-title">
+      <button class="lightbox-close" type="button" aria-label="Fechar imagem">×</button>
+      <div class="lightbox-image-wrap"><img src="" alt="" /></div>
+      <div class="lightbox-caption"><span></span><div><h2 id="lightbox-title"></h2><p></p></div></div>
+    </dialog>
+  </body>
+</html>
