@@ -57,8 +57,7 @@ button { font: inherit; }
 .menu-button span { display: block; width: 24px; height: 1px; margin: 6px; background: white; transition: transform .2s; }
 
 .hero {
-  min-height: 820px;
-  height: 100svh;
+  min-height: max(820px, 100svh);
   padding-top: 88px;
   display: grid;
   grid-template-columns: minmax(0, 1.55fr) minmax(310px, .45fr);
