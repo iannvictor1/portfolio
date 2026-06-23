@@ -1,6 +1,6 @@
 # Portfólio — Iann Victor
 
-Portfólio estático com os projetos desenvolvidos durante o estágio. Não exige instalação ou build.
+Portfólio estático com projetos desenvolvidos para solucionar desafios reais. Não exige instalação ou build.
 
 ## Visualizar
 
